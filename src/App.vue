@@ -19,8 +19,6 @@ mixPokemonArray()
 </script>
 
 <template>
-<p class="text-9xl">hola</p>
-
 <div class="flex justify-center mt-14" v-for="pokemon in pokemonArr">
     <p class="text-5xl">{{ pokemon.name }}</p>
 </div>
